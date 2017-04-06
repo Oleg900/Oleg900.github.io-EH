@@ -1,0 +1,699 @@
+@media (min-width: 300px){ 
+	body{
+		min-width: 259px;
+		font: 11px Arial;
+	}
+	.content{
+		width: 259px;
+	}
+	p {
+		font: 112.5%/15px roboto_condensed_light;
+	}
+	.logo{
+		width: 110px;
+	}
+	.logo h1{
+		font-size: 100%;
+	}
+	.logo .eh{
+		margin: -9px 5px 0 0;
+	}
+	.back_call button{
+		max-width: 120px;
+		padding: 11px 5px 10px;
+	}
+	nav{
+		width: 225px;
+		margin: 0 auto;
+	}
+	nav a{
+		margin-left: 8px;
+	}
+	nav .first{
+		margin-left: 22px;
+	}
+	.call_us{
+		min-height: 100px;
+		background: url(../img/top_fon_300.png) no-repeat center;
+	}
+	.call_us .fon{
+		height: 15px;
+	}
+	.call_us .call{
+		font: 58%/13px roboto_condensed;
+		height: 15px;
+	}
+	.call_us .trapezium{
+		font: 105%/9px bebas_neue;
+		height: 15px;
+	}
+	.call_us .border{
+		border-left: 3px solid transparent;
+		border-right: 3px solid transparent;
+		border-bottom: 5px solid #0072bc;
+		left: -10.3%;
+	}
+	.body{
+		padding-bottom: 480px;
+		margin-top: 20px;
+	}
+	.services, .services .slide{
+		width: 259px;
+	}
+	.types_services{
+		width: 115px;
+		height: 293px;
+		margin: 3px 2px 7px 0;
+	}
+	.types_services .img{
+		height: 55px;
+		margin-top: 10px; 
+	}
+	.types_services h3{
+		min-height: 20px;
+		margin: 7px 0 11px;
+	}
+	.types_services p{
+		width: 110px;
+	}
+	.experts{
+		width: 100%;
+		margin-top: 10px;
+	}
+	.experts h2{
+		margin-bottom: 10px;
+	}
+	.experts .img{
+		margin-right: 5px;
+		width: 195px;
+	}
+	.experts .head{
+		margin: 5px 0;
+	}
+	.experts .back_call{
+		margin-top: 10px;
+	}
+	.choose_us{
+		float: left;
+		width: 100%;
+		margin-top: 20px;
+	}
+	.choose_us h2{
+		margin-bottom: 10px;
+	}
+	.choose_us .img{
+		width: 80px;
+		height: 80px;
+		line-height: 77px;
+	}
+	.choose_us .list{
+		margin-top: 35px;
+	}
+	.choose_us .list p{
+		margin-left: 100px;
+	}
+	.choose_us h3{
+		margin: 15px 0 0 100px;
+	}
+	.choose_us .border{
+		left: 42px;
+	}
+	.contact_us h2{
+		margin: 35px 0 20px;
+	}
+	.contacts input[type=text]{
+		width: 120px;
+		height: 35px;
+		margin-bottom: 20px;
+		padding-left: 10px;
+	}
+	.contacts input[type=submit]{
+		width: 135px;
+		height: 40px;
+		margin: 0 0 35px;
+	}
+	.our_projects h2{
+		margin: 20px 0 10px;
+	}
+	.project{
+		width: 123px;
+		height: 170px;
+		margin: 0 6px 7px 0;
+	}
+	.project a{
+		width: 118px;
+	}
+	.project a:hover{
+		width: 123px;
+	}
+	.middle_fon{
+		padding-bottom: 40px;
+	}
+	.middle_fon h2{
+		margin: 20px 0;
+	}
+	.question_answer{
+		width: 100%;
+	}
+	.question_answer h3{
+		padding-left: 3px;
+		margin-top: 22px;
+	}
+	.question_answer span{
+		border: 5px solid transparent;
+		border-top: 9px solid #0072bc;
+		margin: 26px 0 0;
+	}
+	.reviews{
+		float: left;
+		width: 230px;
+	}
+	.reviews .slide{
+		width: 230px;
+	}
+	.reviews .switch button{
+		margin: 25px 8px 0;
+	}
+	.reviews .description{
+		margin: 15px 0 0 22px;
+	}
+	.reviews .img{
+		width: 155px;
+	}
+	.reviews .text{
+		margin-top: 25px;
+	}
+	.partners h2{
+		margin: 40px 0 15px;
+	}
+	.partners span{
+		max-width: 78px;
+	}
+	footer{
+		height: 438px;
+	}
+	footer h2{
+		margin: 20px 0;
+	}
+	footer .vcard{
+		width: 240px;
+		float: none;
+		margin: 0 auto 40px;
+	}
+	footer .vcard div{
+		width: 240px;
+	}
+	footer button{
+		width: 31px;
+		height: 30px;
+	}
+	footer .mail button{
+		height: 34px;
+	}
+	footer .telephone{
+		margin: 7px auto 25px;
+	}
+	footer .mail{
+		margin: 0 auto 29px;
+	}
+	.footer_contact_us{
+		width: 230px;
+		float: none;
+	}
+}
+@media (min-width: 480px){ 
+	body{
+		min-width: 400px;
+	}
+	.content{
+		width: 400px;
+	}
+	.logo h1{
+		font-size: 95%;
+	}
+
+	.back_call button{
+		padding: 11px 5px 10px;
+	}
+	nav{
+		width: 160px;
+	}
+
+	.call_us{
+		min-height: 200px;
+		background: url(../img/top_fon_480.png) no-repeat center;
+	}
+	.call_us .fon{
+		height: 25px;
+	}
+	.call_us .call{
+		font: 85%/23px roboto_condensed;
+		height: 25px;
+	}
+	.call_us .trapezium{
+		font: 190%/11px bebas_neue;
+		height: 25px;
+	}
+	.call_us .border{
+		border-left: 7px solid transparent;
+		border-right: 7px solid transparent;
+		border-bottom: 10px solid #0072bc;
+	}
+	
+	.services, .services .slide{
+		width: 400px;
+	}
+	.types_services{
+		width: 178px;
+		margin: 10px 10px 15px 0;
+	}
+
+	.types_services p{
+		width: 160px;
+	}
+	.contacts input[type=text]{
+		width: 180px;
+		padding-left: 20px;
+	}
+	.contacts input[type=submit]{
+		width: 200px;
+	}
+	.project{
+		width: 194px;
+		height: 231px;
+		margin: 0 3px 12px 0;
+	}
+	.project a{
+		width: 184px;
+	}
+	.project a:hover{
+		width: 194px;
+	}
+	.question_answer h3{
+		padding-left: 39px;
+	}
+	.question_answer span{
+		margin: 26px 20px 0 0;
+	}
+	.reviews, .reviews .slide{
+		width: 400px;
+	}
+	.reviews .switch button{
+		margin: 50px 8px 0;
+	}
+	.reviews .description{
+		margin: 47px 0 0 22px;
+	}
+	.reviews .img{
+		width: 218px;
+	}
+	.partners span{
+		max-width: 110px;
+	}
+	.footer_contact_us{
+		width: 385px;
+	}
+}
+@media (min-width: 753px){ 
+	body{
+		min-width: 680px;
+		font: 13px Arial;
+	}
+	.content{
+		width: 680px;
+	}
+	p {
+		font: 112.5%/18px roboto_condensed_light;
+	}
+	.logo{
+		width: 115px;
+	}
+	.back_call button{
+		max-width: 137px;
+		padding: 11px 5px 10px;
+	}
+	nav{
+		width: 300px;
+		margin: 3px auto 0;
+	}
+	nav a{
+		margin-left: 14px;
+	}
+	nav .first{
+		margin-left: 40px;
+	}
+	.call_us{
+		min-height: 300px;
+		background: url(../img/top_fon_753.png) no-repeat center;
+	}
+	.call_us .fon{
+		height: 35px;
+	}
+	.call_us .call{
+		font: 115%/33px roboto_condensed;
+		height: 35px;
+	}
+	.call_us .trapezium{
+		font: 255%/10px bebas_neue;
+		height: 35px;
+	}
+	.call_us .border{
+		border-left: 12px solid transparent;
+		border-right: 12px solid transparent;
+		border-bottom: 20px solid #0072bc;
+	}
+	.body{
+		margin-top: 25px;
+	}
+	.services, .services .slide{
+		width: 680px;
+	}
+	.types_services{
+		width: 149px;
+		margin: 36px 11px 23px 0;
+	}
+	.types_services p{
+		width: 140px;
+	}
+	.experts{
+		margin-top: 45px;
+	}
+	.experts h2{
+		margin-bottom: 20px;
+	}
+	.experts .img{
+		margin-right: 18px;
+		width: 275px;
+	}
+	.experts .head{
+		margin: 15px 0 10px;
+	}
+	.experts .back_call{
+		margin-top: 25px;
+	}
+	.choose_us{
+		margin-top: 45px;
+	}
+
+	.choose_us .img{
+		width: 102px;
+		height: 102px;
+		line-height: 99px;
+	}
+
+	.choose_us .list p{
+		margin-left: 133px;
+	}
+	.choose_us h3{
+		margin: 15px 0 0 133px;
+	}
+	.choose_us .border{
+		left: 53px;
+	}
+	.contact_us h2{
+		margin: 89px 0 45px;
+	}
+	.contacts input[type=text]{
+		width: 310px;
+		height: 46px;
+		margin-bottom: 29px;
+		padding-left: 38px;
+	}
+	.contacts input[type=submit]{
+		width: 340px;
+		height: 52px;
+		margin: 11px 0 104px;
+	}
+	.our_projects h2{
+		margin: 40px 0 20px;
+	}
+	.project{
+		width: 167px;
+		height: 203px;
+		margin: 0 3px 15px 0;
+	}
+	.project a{
+		width: 157px;
+	}
+	.project a:hover{
+		width: 167px;
+	}
+	.middle_fon h2{
+		margin: 40px 0 37px;
+	}
+	.reviews, .reviews .slide{
+		width: 600px;
+	}
+	.partners span{
+		max-width: 115px;
+	}
+	footer h2{
+		margin: 54px 0;
+	}
+	footer .vcard{
+		width: 340px;
+		float: left;
+	}
+	footer .vcard div{
+		width: 340px;
+	}
+	.footer_contact_us{
+		width: 340px;
+		float: right;
+	}
+}
+@media (min-width: 1024px){ 
+	body{
+		min-width: 964px;
+		font: 16px Arial;
+	}
+	.content{
+		width: 954px;
+	}
+	p {
+		font: 112.5%/24px roboto_condensed_light;
+	}
+	.logo{
+		width: 150px;
+	}
+	.logo h1{
+		font-size: 100%;
+	}
+	.logo .eh{
+		margin: -11px 9px 0 0;
+	}
+	.back_call button{
+		max-width: 225px;
+		padding: 13px 24px 15px;
+	}
+	nav{
+		width: 575px;
+		margin: 15px auto 0;
+	}
+
+	nav .first{
+		margin-left: 0;
+	}
+	.call_us .fon{
+		height: 51px;
+	}
+	.call_us{
+		min-height: 400px;
+		background: url(../img/top_fon_1024.png) no-repeat center;
+	}
+	.call_us .call{
+		font: 135%/49px roboto_condensed;
+		height: 51px;
+	}
+	.call_us .trapezium{
+		font: 305%/25px bebas_neue;
+		height: 51px;
+	}
+	.call_us .border{
+		border-left: 15px solid transparent;
+		border-right: 15px solid transparent;
+		border-bottom: 28px solid #0072bc;
+	}
+	.body{
+		margin-top: 60px;
+	}
+	.services, .services .slide{
+		width: 954px;
+	}
+	.types_services{
+		width: 204px;
+		height: 302px;
+		margin: 36px 30px 23px 0;
+	}
+	.types_services .img{
+		height: 73px;
+		margin-top: 25px; 
+	}
+	.types_services h3{
+		min-height: 48px;
+		margin: 12px 0 14px;
+	}
+	.types_services p{
+		width: 190px;
+	}
+	.experts{
+		width: 560px;
+		margin-top: 98px;
+	}
+	.experts h2{
+		margin-bottom: 42px;
+	}
+	.experts .img{
+		margin-right: 10px;
+	}
+	.experts .head{
+		margin: 48px 0 42px;
+	}
+	.experts .back_call{
+		margin-top: 42px;
+	}
+	.choose_us{
+		width: 350px;
+		float: right;
+		margin-top: 98px;
+	}
+	.choose_us h2{
+		margin-bottom: 36px;
+	}
+	.choose_us .list{
+		margin-top: 77px;
+	}
+	.choose_us h3{
+		margin: 0 0 0 133px;
+	}
+	.contacts input[type=text]{
+		width: 374px;
+	}
+	.contacts input[type=submit]{
+		width: 417px;
+	}
+	.our_projects h2{
+		margin: 77px 0 32px;
+	}
+	.project{
+		width: 215px;
+		height: 250px;
+		margin: 0 22px 33px 0;
+	}
+	.project a{
+		width: 205px;
+	}
+	.project a:hover{
+		width: 215px;
+	}
+	.middle_fon{
+		padding-bottom: 77px;
+	}
+	.middle_fon h2{
+		margin: 64px 0 37px;
+	}
+	.question_answer{
+		width: 470px;
+	}
+	.reviews{
+		float: right;
+		width: 464px;
+	}
+	.reviews .slide{
+		width: 464px;
+	}
+	.reviews .switch button{
+		margin: 76px 8px 0;
+	}
+	.reviews .img{
+		width: 200px;
+	}
+	.partners h2{
+		margin: 64px 0 60px;
+	}
+	.partners span{
+		max-width: 185px;
+	}
+	footer .vcard{
+		width: 477px;
+	}
+	footer button{
+		width: 31px;
+		height: 42px;
+	}
+	footer .mail button{
+		height: 44px;
+	}
+	.footer_contact_us{
+		width: 477px;
+	}
+}
+@media (min-width: 1180px){ 
+	body{
+		min-width: 1120px;
+	}
+	.content{
+		width: 1110px;
+	}
+	.back_call button{
+		max-width: 290px;
+	}
+	.call_us{
+		background: url(../img/top_fon.png) no-repeat center;
+	}
+	.call_us .call{
+		font: 150%/49px roboto_condensed;
+	}
+	.call_us .trapezium{
+		font: 330%/25px bebas_neue;
+	}
+	.services, .services .slide{
+		width: 1110px;
+	}
+	.types_services{
+		width: 243px;
+	}
+	.types_services p{
+		width: 200px;
+	}
+	.experts{
+		width: 634px;
+	}
+	.experts .img{
+		margin-right: 18px;
+		width: 308px;
+	}
+	
+	.choose_us{
+		width: 380px;
+	}
+	.project{
+		width: 255px;
+		height: 288px;
+		margin: 0 22px 33px 0;
+	}
+	.project a{
+		display: block;
+		width: 245px;
+		margin: auto;
+		transition: 0.3s;
+	}
+	.project a:hover{
+		width: 255px;
+	}
+	.question_answer{
+		width: 504px;
+	}
+	.reviews, .reviews .slide{
+		width: 519px;
+	}
+	.reviews .img{
+		width: 218px;
+	}
+	footer .vcard{
+		width: 555px;
+	}
+	.footer_contact_us{
+		width: 555px;
+	}
+}

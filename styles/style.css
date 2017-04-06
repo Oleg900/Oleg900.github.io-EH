@@ -1,0 +1,596 @@
+@font-face{
+	font-family: bebas_neue;
+	src: url(../fonts/bebas_neue.ttf);
+}
+@font-face{
+	font-family: bebas_neue_bold;
+	src: url(../fonts/bebas_neue_bold.ttf);
+}
+@font-face{
+	font-family: eras_demi_itc;
+	src: url(../fonts/eras_demi_itc.ttf);
+}
+@font-face{
+	font-family: roboto_condensed;
+	src: url(../fonts/roboto_condensed.ttf);
+}
+@font-face{
+	font-family: roboto_condensed_bold;
+	src: url(../fonts/roboto_condensed_bold.ttf);
+}
+@font-face{
+	font-family: roboto_condensed_light;
+	src: url(../fonts/roboto_condensed_light.ttf);
+}
+/* ОБЩЕЕ */
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	height: 100%;
+}
+body{
+	width: 100%;
+	height: 100%;
+	min-width: 964px;
+	font: 16px Arial;
+	color: #000;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: none;
+	color: #818181;
+}
+.clear{
+	clear: both;
+}
+.content{
+	width: 954px;
+	padding: 0 10px;
+	margin: auto;
+}
+.wrapper{
+	min-height: 100%;
+	position: relative;
+}
+p {
+	font: 112.5%/24px roboto_condensed_light;
+}
+/* ШАПКА */
+header{
+	margin-top: 5px;
+}
+header .content{
+	overflow: auto;
+}
+.logo{
+	float: left;
+	width: 150px;
+	margin-top: 11px;
+}
+.logo h1{
+	font-size: 100%;
+}
+.logo span{
+	font: 87.5% roboto_condensed;
+	color: #252525;
+	display: block;
+}
+.logo .eh{
+	float: left;
+	font: 300% eras_demi_itc;
+	color: #f7941d;
+	margin: -11px 9px 0 0;
+}
+header .back_call{
+	float: right;
+}
+.back_call button{
+	font: 112.5% roboto_condensed_bold;
+	color: #fffefe;
+	background: #f7941d;
+	max-width: 225px;
+	padding: 13px 24px 15px;
+	border: 0;
+	cursor: pointer;
+}
+.back_call button:hover{
+	background: #ee8200;
+}
+nav{
+	overflow: auto;
+	width: 575px;
+	margin: 15px auto 0;
+}
+nav ul{
+	overflow: auto;
+}
+nav li{
+	float: left;
+}
+nav a{
+	font: 112.5% roboto_condensed_bold;
+	color: #9c9c9c;
+	margin-left: 14px;
+}
+nav .first{
+	margin-left: 0;
+}
+nav a:hover{
+	color: #626262;
+}
+.call_us{
+	width: 100%;
+	margin: auto;
+	min-height: 300px;
+	max-height: 603px;
+	background: url(../img/top_fon.png) no-repeat center;
+	background-size: cover;
+	position: relative;
+}
+.call_us .content{
+	overflow: visible;
+}
+.call_us .fon{
+	position: absolute;
+	bottom: 0;
+	background: #0072bc;
+	width: 100%;
+	height: 51px;
+	text-align: center;
+}
+.call_us span{
+	display: block;
+	color: #fff;
+}
+.call_us .call{
+	float: left;
+	font: 135%/49px roboto_condensed;
+	height: 51px;
+}
+.call_us .trapezium{
+	float: right;
+	font: 305%/25px bebas_neue;
+	height: 51px;
+	text-align: center;
+	position: relative;
+}
+.call_us .tel{
+	position: relative;
+	z-index: 1;
+}
+.call_us .border{
+	position: absolute;
+	width: 109%;
+	bottom: 100%;
+	left: -10.3%;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-bottom: 28px solid #0072bc;
+}
+/* ТЕЛО */
+.body{
+	padding-bottom: 480px;
+	margin-top: 60px;
+}
+.body h2{
+	font: 225% bebas_neue;
+}
+/* НАШИ УСЛУГИ */
+.services{
+	overflow: hidden;
+	width: 954px;
+	margin: 0 0 7px;
+}
+.services h2{
+	margin-bottom: 13px;
+}
+.services p{
+	color: #919191;
+}
+.services .slider{
+	width: 9999px; 
+}
+.services .slide {
+	float: left;
+	width: 954px;
+}
+.types_services{
+	float: left;
+	width: 204px;
+	height: 302px;
+	border: 3px solid #0072bc;
+	overflow: hidden;
+	text-align: center;
+	margin: 36px 30px 23px 0;
+	padding: 0 3px;
+}
+.services .last{
+	margin-right: 0;
+}
+.types_services .img{
+	display: inline-block;
+	height: 73px;
+	margin-top: 25px; 
+}
+.types_services img{
+	height: 100%;
+}
+.types_services h3{
+	font: 112.5% roboto_condensed_bold;
+	min-height: 48px;
+	margin: 12px 0 14px;
+}
+.types_services p{
+	width: 190px;
+	margin: auto;
+}
+.services .switch{
+	text-align: center;
+}
+.services .switch button{
+	width: 13px;
+	height: 13px;
+	border: 3px solid #b7b7b7;
+	border-radius: 50%;
+	margin: 0 8px;
+	cursor: pointer;
+	overflow: hidden;
+}
+.services .switch .active{
+	border-color: #0072bc;
+	background: #0072bc;
+}
+/* ЭКСПЕРТЫ В ОБЛАСТИ МОНТАЖА */
+.experts{
+	float: left;
+	width: 560px;
+	margin-top: 98px;
+}
+.experts h2{
+	margin-bottom: 42px;
+}
+.experts .img{
+	float: left;
+	width: 275px;
+	margin-right: 10px;
+}
+.body .experts .last{
+	margin-right: 0;
+}
+.experts img{
+	width: 100%;
+}
+.experts .head{
+	font: 150% roboto_condensed_bold;
+	color: #262626;
+	margin: 48px 0 42px;
+}
+.experts .text{
+	color: #919191;
+}
+.experts .back_call{
+	margin-top: 42px;
+}
+/* ПОЧЕМУ ВЫБИРАЮТ НАС */
+.choose_us{
+	float: right;
+	width: 350px;
+	margin-top: 98px;
+}
+.choose_us h2{
+	margin-bottom: 36px;
+}
+.choose_us p{
+	color: #919191;
+}
+.choose_us .img{
+	float: left;
+	width: 102px;
+	height: 102px;
+	line-height: 99px;
+	background: #fff;
+	border: 3px solid #d7d7d7;
+	border-radius: 50%;
+	text-align: center;
+}
+.choose_us .img img{
+	vertical-align: middle;
+}
+.choose_us h3{
+	font: 112.5% roboto_condensed_bold;
+	color: #252525;
+	margin: 0 0 7px 133px;
+}
+.choose_us .list{
+	overflow: auto;
+	margin-top: 77px;
+	z-index: 1;
+}
+.choose_us .list p{
+	margin-left: 133px;
+}
+.choose_us .first{
+	margin-top: 30px;
+}
+.choose_us .last{
+	background: #fff;
+}
+.choose_us div{
+	position: relative;
+}
+.choose_us .border{
+	height: 100%;
+	border-left: 3px dashed #d7d7d7;
+	position: absolute;
+	top: 0;
+	left: 53px;
+}
+/* СВЯЖИТЕСЬ С НАМИ */
+.contact_us{
+	width: 1920px;
+	max-width: 100%;
+	margin: 53px auto 0;
+	min-height: 333px;
+	max-height: 603px;
+	background: url(../img/body_fon.png) no-repeat center;
+	background-size: cover;
+	color: #fff;
+}
+.contact_us .left{
+	width: 50%;
+	min-height: inherit;
+	max-height: inherit;
+	background: rgba(0, 114, 188, .78);
+	text-align: center;
+	overflow: auto;
+}
+.contact_us h2{
+	font: 225% bebas_neue_bold;
+	margin: 89px 0 45px;
+}
+.contacts input{
+	font: 112.5% roboto_condensed_bold;
+	color: #fffefe;
+}
+.contacts input[type=text]{
+	width: 374px;
+	height: 46px;
+	margin-bottom: 29px;
+	padding-left: 38px;
+	background: rgba(0, 0, 0, 0);
+	border: 3px solid #fff;
+
+}
+.contacts input[type=submit]{
+	width: 417px;
+	height: 52px;
+	margin: 11px 0 104px;
+	background: #f7941d;
+	border: 0;
+	cursor: pointer;
+}
+.contacts input[type=submit]:hover{
+	background: #ee8200;
+}
+/* НАШИ ПРОЕКТЫ */
+.our_projects h2{
+	color: #262626;
+	margin: 77px 0 32px;
+}
+.project{
+	float: left;
+	width: 215px;
+	height: 250px;
+	text-align: center;
+	margin: 0 22px 33px 0;
+}
+.project a{
+	display: block;
+	width: 205px;
+	margin: auto;
+	transition: 0.3s;
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
+	-moz-transition: 0.3s;
+
+}
+.project a:hover{
+	width: 215px;
+}
+.project img{
+	float: left;
+	width: 100%;
+}
+.project span{
+	float: left;
+	font: 112.5%/59px roboto_condensed_bold;
+	color: #fffefe;
+	background: #0072bc;
+	width: 100%;
+	height: 59px;
+}
+/* ВОПРОС ОТВЕТ */
+.middle_fon{
+	width: 100%;
+	background: #efefef;
+	padding-bottom: 77px;
+}
+.middle_fon h2{
+	color: #262626;
+	margin: 64px 0 37px;
+}
+.question_answer{
+	float: left;
+	width: 470px;
+}
+.question_answer h3{
+	font: 112.5%/59px roboto_condensed_bold;
+	color: #0072bc;
+	background: #fff;
+	min-height: 59px;
+	margin-top: 22px;
+	padding-left: 3px;
+	cursor: pointer;
+}
+.question_answer span{
+	float: right;
+	width: 0;
+	border: 5px solid transparent;
+	border-top: 9px solid #0072bc;
+	margin: 26px 0 0;
+}
+.question_answer .text{
+	margin: 13px 0 7px;
+	color: #363636;
+	display: none;
+}
+/* ОТЗЫВЫ */
+.reviews{
+	float: right;
+	width: 464px;
+	overflow: hidden;
+}
+.reviews .slider{
+	width: 9999px;
+}
+.reviews .slide{
+	float: left;
+	width: 464px;
+}
+.reviews .switch{
+	text-align: center;
+}
+.reviews .switch button{
+	width: 13px;
+	height: 13px;
+	border: 3px solid #b7b7b7;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: 76px 8px 0;
+	cursor: pointer;
+}
+.reviews .switch .active{
+	border-color: #0072bc;
+	background: #0072bc;
+}
+.reviews .description{
+	float: left;
+	margin: 15px 0 0 22px;
+}
+.reviews .img{
+	float: left;
+	width: 200px;
+}
+.reviews img{
+	width: 100%;
+}
+.reviews h3{
+	font: 112.5% roboto_condensed_bold;
+	color: #1b1b1b;
+	margin-bottom: 20px;
+}
+.reviews span, .reviews .text{
+	font: 112.5% roboto_condensed_light;
+	color: #363636;
+}
+.reviews .text{
+	margin-top: 25px;
+}
+.reviews .rating{
+	float: left;
+	width: 30px;
+	height: 19px;
+	border: 0;
+	background: url('../img/star.png') no-repeat;
+	cursor: pointer;
+	margin-top: 21px;
+}
+/* НАШИ ПАРТНЕРЫ */
+.partners h2{
+	color: #262626;
+	margin: 64px 0 60px;
+}
+.partners{
+	text-align: justify;
+}
+.partners span{
+	display: inline-block;
+	max-width: 185px;
+}
+.partners img{
+	width: 100%;
+}
+.partners button{
+	height: 0;
+	width: 100%;
+	border: none;
+}
+/* ПОДВАЛ */
+footer{
+	width: 100%;
+	height: 438px;
+	text-align: center;
+	background: #252525;
+	position: absolute;
+	bottom: 0;
+}
+footer h2{
+	font: 225% bebas_neue_bold;
+	color: #f7941d;
+	margin: 20px 0;
+}
+footer .vcard{
+	width: 477px;
+	float: left;
+	text-align: left;
+	margin: 0 auto 40px;
+}
+footer .vcard div{
+	width: 340px;
+}
+footer .vcard a, footer .adr{
+	font: 187.5% roboto_condensed_bold;
+	color: #fffefe;
+}
+footer button{
+	float: left;
+	width: 31px;
+	height: 42px;
+	border: 0;
+	margin-right: 7px;
+}
+footer .telephone{
+	margin: 7px auto 25px;
+}
+footer .telephone button{
+	background: url('../img/tel.png') no-repeat center;
+}
+footer .mail{
+	margin: 0 auto 29px;
+}
+footer .mail button{
+	background: url('../img/mail.png') no-repeat center;
+	height: 44px;
+}
+footer .adr{
+	margin: auto;
+}
+footer .adr button{
+	width: 24px;
+	margin-right: 11px;
+	background: url('../img/address.png') no-repeat center;
+}
+.footer_contact_us{
+	width: 477px;
+	float: right;
+}
+footer .footer_contact_us input[type=submit]{
+	margin-bottom: 0;
+}
